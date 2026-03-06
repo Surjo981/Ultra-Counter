@@ -1,7 +1,7 @@
 <h1 align="center">🌐 Ultra Counter App</h1>
 
 <p align="center">
-  <b>A premium, minimalist, and responsive counter app featuring a modern Glassmorphism UI.</b>
+  <b>A powerful, responsive, and minimalist counter app built with HTML, CSS, and JavaScript. Featuring modern Glassmorphism UI and Local Storage.</b>
 </p>
 
 ---
