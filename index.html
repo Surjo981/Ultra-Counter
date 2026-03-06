@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ultra Counter by Surjo Karmokar</title>
+
+    <meta name="title" content="Ultra Counter by Surjo Karmokar" />
+    <meta
+      name="description"
+      content="A powerful, responsive, and minimalist counter app built with HTML, CSS, and JavaScript. Featuring modern Glassmorphism UI and Local Storage."
+    />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="" />
+    <meta property="og:title" content="Ultra Counter App" />
+    <meta
+      property="og:description"
+      content="A powerful, responsive, and minimalist counter app built with HTML, CSS, and JavaScript. Featuring modern Glassmorphism UI and Local Storage."
+    />
+    <meta property="og:image" content="./favicon.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://ultracounter.pages.dev/" />
+    <meta property="twitter:title" content=" Ultra Counter by Surjo Karmokar" />
+    <meta
+      property="twitter:description"
+      content="A powerful, responsive, and minimalist counter app built with HTML, CSS, and JavaScript. Featuring modern Glassmorphism UI and Local Storage."
+    />
+    <meta property="twitter:image" content="./favicon.png" />
+
+    <meta name="author" content="Surjo Karmokar" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <!-- Bootstrap Icon CDN  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.13.1/font/bootstrap-icons.min.css"
+      integrity="sha512-t7Few9xlddEmgd3oKZQahkNI4dS6l80+eGEzFQiqtyVYdvcSG2D3Iub77R20BdotfRPA9caaRkg1tyaJiPmO0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Oswald and Fira Code fonts  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- CSS  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1>ULTRA COUNTER</h1></header>
+
+    <!-- Counter Card  -->
+
+    <main id="counter-wrapper">
+      <h2 id="counter-display">0</h2>
+
+      <section class="button-container">
+        <!-- Plus Button  -->
+        <div class="control-item" style="grid-area: plusBtn">
+          <button id="plusBtn" title="Increase">
+            <i class="bi bi-plus-circle"></i>
+          </button>
+        </div>
+
+        <!-- Minus Button  -->
+        <div class="control-item" style="grid-area: minusBtn">
+          <button id="minusBtn" title="Decrease">
+            <i class="bi bi-dash-circle"></i>
+          </button>
+        </div>
+
+        <!-- Reset Button  -->
+        <button id="reset-button" title="Reset Counter">
+          <i class="bi bi-arrow-counterclockwise"></i>
+        </button>
+      </section>
+    </main>
+
+    <!-- Attribution  -->
+
+    <div class="attribution">
+      <p class="full-attribution">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Designed and Developed with 💖 by
+        <a href="https://surjo.pages.dev/">Surjo Karmokar</a>
+      </p>
+
+      <p class="short-attribution">
+        &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Created with 💖 by <a href="https://surjo.pages.dev/">Surjo Karmokar</a>
+      </p>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
