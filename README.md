@@ -1,4 +1,4 @@
-<h1 align="center">🌐 Ultra Counter App</h1>
+<h1 align="center">🌐 Ultra Counter</h1>
 
 <p align="center">
   <b>A powerful, responsive, and minimalist counter app built with HTML, CSS, and JavaScript. Featuring modern Glassmorphism UI and Local Storage.</b>
@@ -32,13 +32,13 @@
 ---
 
 ### 🧩 Built With
-- **HTML5** - Structure  
-- **CSS3** - Glassmorphism Styling & Layout  
-- **JavaScript (ES ES6+)** - Logic & State Persistence  
+- HTML 5
+- CSS 3 
+- JavaScript (ES ES6+) 
 
 ---
 
-## 👨‍💻 Created by [Surjo Karmokar](https://github.com/Surjo981)
+## 👨‍💻 Created by [Surjo Karmokar](https://surjo.pages.dev/)
 
 <p align="center">
   ⭐ If you found this project helpful, consider giving the repo a star :)
