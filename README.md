@@ -1,4 +1,4 @@
-<H1 align="center">🌐 Ultra Counter</H1>
+<h1 align="center">🌐 Ultra Counter</h1>
 
 <p align="center">
   <b>A powerful, responsive, and minimalist counter app built with HTML, CSS, and JavaScript. Featuring modern Glassmorphism UI and Local Storage.</b>
