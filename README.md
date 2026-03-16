@@ -13,7 +13,7 @@
 ## 🧩 Technologies Used
 - HTML5
 - CSS3 
-- JavaScript (ES6+) 
+- JavaScript (ES6+) [Leveling up! From AI-prompts to writing every line by myself.]
 
 
 ## 📸 Screenshots
